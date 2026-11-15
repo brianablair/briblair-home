@@ -1,0 +1,11 @@
+{
+  // Cloudflare settings for the public homepage at briblair.com.
+  "name": "briblair-home",
+  "compatibility_date": "2026-11-01",
+  "assets": { "directory": "./public" },
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    { "pattern": "briblair.com", "custom_domain": true }
+  ]
+}
